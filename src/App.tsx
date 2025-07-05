@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/Calendario">
         <div className="App">
           <Routes>
             <Route path="/login" element={<Login />} />
